@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background: #222;
+    background-image: url("./img1.jpg");
     font-size: 80%;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .card {
-    background: #000000d0;
-    color: #A7ACB4;
+    background: #0B3223;
+    color: #FFFFFF;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
@@ -38,8 +38,8 @@ button {
     margin: 0.5em;
     border-radius: 50%;
     border: none;
-    height: 33px;
-    width: 33px;
+    height: 43px;
+    width: 43px;
     outline: none;
     background: #A7ACB4;
     cursor: pointer;
@@ -52,9 +52,9 @@ input.search-bar {
     padding: 0.4em 1em;
     border-radius: 23px;
     background: #A7ACB4;
-    color: white;
+    color: #20201D;
     font-family: inherit;
-    font-size: 107%;
+    font-size: 97%;
     width: calc(100% - 100px);
 }
 
@@ -72,7 +72,7 @@ h1.temp {
 
 .description {
     text-transform: capitalize;
-    margin-left: 8px;
+    margin-left: 0px;
 }
 
 .weather.loading {
@@ -85,4 +85,10 @@ h1.temp {
     visibility: visible;
     content: "Loading...";
     color: #A7ACB4 ;
+}
+
+h3 {
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
 }
